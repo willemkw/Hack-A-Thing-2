@@ -1,14 +1,20 @@
 {
   "resources": [
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
-    {"id":{"name":"obj_con_client","path":"objects/obj_con_client/obj_con_client.yy",},"order":0,},
+    {"id":{"name":"obj_other","path":"objects/obj_other/obj_other.yy",},"order":2,},
+    {"id":{"name":"spr_other","path":"sprites/spr_other/spr_other.yy",},"order":1,},
+    {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},"order":1,},
+    {"id":{"name":"con_client","path":"objects/con_client/con_client.yy",},"order":0,},
     {"id":{"name":"scr_recieved_packet","path":"scripts/scr_recieved_packet/scr_recieved_packet.yy",},"order":0,},
-    {"id":{"name":"spr_penguin","path":"sprites/spr_penguin/spr_penguin.yy",},"order":0,},
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
+    {"id":{"name":"con_game_manager","path":"objects/con_game_manager/con_game_manager.yy",},"order":3,},
     {"id":{"name":"rm_client","path":"rooms/rm_client/rm_client.yy",},"order":0,},
   ],
   "Options": [
     {"name":"Main","path":"options/main/options_main.yy",},
     {"name":"Windows","path":"options/windows/options_windows.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"macOS","path":"options/mac/options_mac.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -18,6 +24,7 @@
     "children": [],
   },
   "RoomOrder": [
+    {"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},
     {"name":"rm_client","path":"rooms/rm_client/rm_client.yy",},
   ],
   "Folders": [
