@@ -66,5 +66,14 @@ function scr_recieved_packet(buffer){
 			_player.x = move_x;
 			_player.y = move_y;
 			break;
+			
+		case network.chat:
+			// Read chat message, put it in the list.
+			var _chat = buffer_read(buffer, buffer_string);
+			ds_list_insert(global.chat, 0, _chat);
+			
+			var _colorid = buffer_read(buffer, buffer_u8);
+			ds_list_insert(global.chat_color, 0, ds_map_find_value(color_map, _colorid));
+			break;
 	}
 }

@@ -8,6 +8,7 @@
     {"id":{"name":"scr_recieved_packet","path":"scripts/scr_recieved_packet/scr_recieved_packet.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"con_game_manager","path":"objects/con_game_manager/con_game_manager.yy",},"order":3,},
+    {"id":{"name":"con_chat","path":"objects/con_chat/con_chat.yy",},"order":4,},
     {"id":{"name":"rm_client","path":"rooms/rm_client/rm_client.yy",},"order":0,},
   ],
   "Options": [

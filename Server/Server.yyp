@@ -4,6 +4,7 @@
     {"id":{"name":"scr_recieved_packet","path":"scripts/scr_recieved_packet/scr_recieved_packet.yy",},"order":0,},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},"order":0,},
     {"id":{"name":"scr_network_player_join","path":"scripts/scr_network_player_join/scr_network_player_join.yy",},"order":1,},
+    {"id":{"name":"con_gui","path":"objects/con_gui/con_gui.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":1,},
     {"id":{"name":"rm_server","path":"rooms/rm_server/rm_server.yy",},"order":0,},
   ],
