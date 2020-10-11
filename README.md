@@ -2,6 +2,7 @@
 Repository for 2nd hack-a-thing, CS98
 
 Team: Willem Klein Wassink, Eitan Vilker, Joe Zhang
+
 *We each worked on our Hack-a-things individually*
 
 ### GameMaker Studio 2 Networking (Willem)
